@@ -1,0 +1,27 @@
+{
+  "name": "@writetome51/array-remove-head-tail",
+  "version": "1.0.0",
+  "description": "array-handling functions that remove a chosen number of items from the beginning of the array or the end",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/array-remove-head-tail.git"
+  },
+  "keywords": [
+    "array",
+    "manipulation"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/writetome51/array-remove-head-tail/issues"
+  },
+  "homepage": "https://github.com/writetome51/array-remove-head-tail#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "@writetome51/array-get-and-removers-basic": "latest"
+  }
+}
