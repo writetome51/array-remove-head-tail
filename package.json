@@ -6,22 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/writetome51/array-remove-head-tail.git"
-  },
   "keywords": [
     "array",
+    "remove",
+    "head",
+    "tail",
+    "items",
     "manipulation"
   ],
   "author": "Steve Thompson",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/writetome51/array-remove-head-tail/issues"
-  },
-  "homepage": "https://github.com/writetome51/array-remove-head-tail#readme",
   "devDependencies": {},
   "dependencies": {
-    "@writetome51/array-get-and-removers-basic": "latest"
+    "@writetome51/array-get-and-removers-basic": "latest",
+    "@writetome51/arrays-match": "latest"
   }
 }
