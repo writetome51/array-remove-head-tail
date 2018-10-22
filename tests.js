@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var removeHead_1 = require("./removeHead");
 var removeTail_1 = require("./removeTail");
-var arraysMatch_1 = require("@writetome51/arrays-match/arraysMatch");
+var arrays_match_1 = require("@writetome51/arrays-match");
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
 var errorsTriggered = 0;
 var errorTriggered = false;
@@ -103,27 +103,27 @@ else
     console.log('test 2 failed');
 // Test 3: Make sure function removes only the items asked for:
 removeHead_1.removeHead(1, arr);
-if (arraysMatch_1.arraysMatch([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], arr))
+if (arrays_match_1.arraysMatch([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], arr))
     console.log('test 3 passed');
 else
     console.log('test 3 failed');
 // Test 4: same as above, but for removeTail():
 removeTail_1.removeTail(1, arr);
-if (arraysMatch_1.arraysMatch([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], arr))
+if (arrays_match_1.arraysMatch([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], arr))
     console.log('test 4' +
         ' passed');
 else
     console.log('test 4 failed');
 // Test 5: Make sure function removes only the items asked for:
 removeHead_1.removeHead(3, arr);
-if (arraysMatch_1.arraysMatch([5, 6, 7, 8, 9, 10, 11, 12, 13], arr))
+if (arrays_match_1.arraysMatch([5, 6, 7, 8, 9, 10, 11, 12, 13], arr))
     console.log('test' +
         ' 5 passed');
 else
     console.log('test 5 failed');
 // Test 6: same as above, but for removeTail():
 removeTail_1.removeTail(3, arr);
-if (arraysMatch_1.arraysMatch([5, 6, 7, 8, 9, 10], arr))
+if (arrays_match_1.arraysMatch([5, 6, 7, 8, 9, 10], arr))
     console.log('test 6 passed');
 else
     console.log('test 6 failed');

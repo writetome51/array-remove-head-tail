@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/array-remove-head-tail",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "array-handling functions that remove a chosen number of items from the beginning of the array or the end",
   "main": "",
   "scripts": {
