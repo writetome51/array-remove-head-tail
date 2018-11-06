@@ -1,4 +1,4 @@
-import { getAndRemoveHead } from '@writetome51/array-get-and-removers-basic/getAndRemoveHead';
+import { getAndRemoveHead } from '@writetome51/array-get-and-remove-head-tail';
 
 
 export function removeHead(numItemsToRemove, array): void {
