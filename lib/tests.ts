@@ -1,5 +1,5 @@
-import { removeHead } from './removeHead';
-import { removeTail } from './removeTail';
+import { removeHead } from './privy/removeHead';
+import { removeTail } from './privy/removeTail';
 import { arraysMatch } from '@writetome51/arrays-match';
 
 

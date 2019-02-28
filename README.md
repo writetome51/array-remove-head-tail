@@ -1,14 +1,31 @@
-To include in your project:
+# removeHead(numItems, array): void
 
-import {removeHead, removeTail} from '@writetome51/array-remove-head-tail'
+Removes `numItems` from beginning of array.
 
-This has 2 functions, both return void.
+# removeTail(numItems, array): void
 
-Removes number of items from beginning of array:
+Removes `numItems` from end of array.
 
-removeHead(numItemsToRemove, array);
+## Examples
+```
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
+removeHead(3, arr);
+// arr is now [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+
+removeTail(3, arr);
+// arr is now [4, 5, 6, 7, 8, 9, 10, 11]
+```
 
 
-Removes number of items from end of array:
+## Installation
+`npm i  @writetome51/array-remove-head-tail`
 
-removeTail(numItemsToRemove, array);
+## Loading
+```
+// if using TypeScript:
+import {removeHead, removeTail} from '@writetome51/array-remove-head-tail';
+
+// if using ES5 JavaScript:
+var removeHead = require('@writetome51/array-remove-head-tail').removeHead;
+var removeTail = require('@writetome51/array-remove-head-tail').removeTail;
+```
