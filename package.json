@@ -1,9 +1,10 @@
 {
   "name": "@writetome51/array-remove-head-tail",
-  "version": "1.0.4",
-  "description": "Functions that remove a chosen number of items from the beginning of an array or the end",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "version": "2.0.0",
+  "description": "Functions that remove items from the beginning of an array or the end",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "build": "tsc"
   },
@@ -25,9 +26,10 @@
   ],
   "author": "Steve Thompson",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "@writetome51/arrays-match": ">=2.0.2"
+  },
   "dependencies": {
-    "@writetome51/array-get-and-remove-head-tail": "~1.0.4",
-    "@writetome51/arrays-match": "~1.0.5"
+    "@writetome51/array-get-and-remove-head-tail": ">=2.0.0"
   }
 }

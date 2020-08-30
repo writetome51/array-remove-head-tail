@@ -8,12 +8,12 @@ Removes `numItems` from end of array.
 
 ## Examples
 ```
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 removeHead(3, arr);
-// arr is now [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+// arr is now [4, 5, 6, 7, 8, 9]
 
 removeTail(3, arr);
-// arr is now [4, 5, 6, 7, 8, 9, 10, 11]
+// arr is now [4, 5, 6]
 ```
 
 
@@ -21,11 +21,6 @@ removeTail(3, arr);
 `npm i  @writetome51/array-remove-head-tail`
 
 ## Loading
-```
-// if using TypeScript:
+```js
 import {removeHead, removeTail} from '@writetome51/array-remove-head-tail';
-
-// if using ES5 JavaScript:
-var removeHead = require('@writetome51/array-remove-head-tail').removeHead;
-var removeTail = require('@writetome51/array-remove-head-tail').removeTail;
 ```
